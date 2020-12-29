@@ -1,5 +1,5 @@
 class RulesController < ApplicationController
-  before_action :authorized, :set_rule, only: [:show, :update, :destroy]
+  # before_action :authorized, :set_rule, only: [:show, :update, :destroy]
 
   # GET /rules
   def index
