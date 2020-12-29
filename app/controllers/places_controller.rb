@@ -1,5 +1,5 @@
 class PlacesController < ApplicationController
-  before_action :authorized, :set_place, only: [:show, :update, :destroy]
+  # before_action :authorized, :set_place, only: [:show, :update, :destroy]
 
   # GET /places
   def index
