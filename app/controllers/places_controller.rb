@@ -1,5 +1,5 @@
 class PlacesController < ApplicationController
-  before_action :set_place, only: [:show, :create, :update, :destroy]
+  before_action :set_place, only: [:show, :update, :destroy]
 
   # GET /places
   def index
